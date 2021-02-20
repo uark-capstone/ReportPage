@@ -1,0 +1,45 @@
+﻿
+:root {
+    /*Primary Colors: */
+    --red: #ff602a;
+    --blue: #2a48ff;
+    --pink: #d518d5;
+    --black: #000000;
+    --yellow: #ffdb00;
+}
+
+.navbar-brand{
+    color: var(--black);
+}
+
+.container-fluid {
+    color: var(--black);
+}
+.navbar {
+    color: var(--black);
+    background-color: var(--yellow);
+}
+/* Page Styles*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.panel {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+/* Button Styles */
+
+
+/* Graph Styling*/
+
+.line {
+    font-family: 'Roboto', sans-serif;
+    line: var(--black);
+    stroke: black;
+    stroke-width: 5px;
+}
+
+
